@@ -1,5 +1,5 @@
 # weather.py
-A Flask-powered weather application.
+A Flask-powered weather application made in 00:24:53 minutes as part of a coding challenge proposed by a friend.
 
 ---
 
@@ -14,6 +14,12 @@ These instructions will get you a copy of the project up and running on your loc
 6. Run `$ py app.py`.
 
 ---
+
+## Todos:
+1. Make the code more readable. []
+2. Modify the templates. []
+3. Change the `index` page to show the user's location (as in in their first visit).
+--
 
 ## Built With
 * [Flask](http://flask.pocoo.org/) — The web framework used.
