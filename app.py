@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, redirect, url_for
-from pprintpp import pprint as pp
 from flask_googlemaps import GoogleMaps
 from flask_googlemaps import Map
 import requests
