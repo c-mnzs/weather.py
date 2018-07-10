@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather.py &middot; a web-based weather application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <style>a, .links-footer {text-decoration: none !important;}
+    .links-footer a {color: #000000 !important; }
+    .links-footer a:hover {color:blue;}</style>
+
+
+    <div class="container-fluid">
+        <div class="card-group">
+            <div class="card" style="background-color:rgba(255,255,255,0);width:100%; border: 0 !important;">
+                <div class="card-body" style="vertical-align:middle;width:100%;text-align:center;margin: auto; border: 0 !important;">
+                    <div style="margin-top: 15px;"><a href="{{url_for('index')}}"><span style="float: left; font-size: 14px; font-weight:bolder;text-transform:uppercase;font-family:'Roboto Mono', monospace; color: #000000;"><i class="fas fa-home"></i>  HOME</span></a><div style="float:right;">
+                            <form method="POST"><input type="text" name="city" placeholder="City" style="max-width: 110px; font-family:'Roboto Mono', monospace; vertical-align: middle; height:30px;"> <input type="submit" value="SEARCH" style="background-color: #000000; color:white; border: 0; height:30px; vertical-align: middle; font-weight:bolder;text-transform:uppercase;font-family:'Roboto Mono', monospace"></form></div></div>
+
+
+
+                    <div style="margin-top:100px;"><h4 class="card-title" style="font-weight:bolder;text-transform:uppercase;font-family:'Roboto Mono', monospace;">Error 404</h4>
+                    <p class="card-text">Invalid city name. Please, try again.</p>
+
+                </div>
+                    <hr>
+
+                    <div class="container-fluid" style="padding:12px;margin:0 auto;width:100%;font-family:'Roboto Mono', monospace;text-align:center"><span class="links-footer"><a href="https://github.com/c-mnzs"><i class="fab fa-github"></i> <a href="https://twitter.com/cmnzs_pt"><i class="fab fa-twitter"></i></a> </a></span><small style="color: rgb(37, 37, 37); text-transform:uppercase;display:block;font-weight:300;letter-spacing:5px;font-size:8px;">weather.py by carlos menezes</small></div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
